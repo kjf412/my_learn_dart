@@ -336,7 +336,7 @@ class login extends StatelessWidget {
                         // 通过后再提交数据。
                         userName = unameController.text;
                         mima = mimaController.text;
-                        if (userName == 'people' && mima == '12345678') {
+                        if (userName == 'people' && mima == '123456') {
                           //验证通过提交数据
                           Navigator.push(
                             context,
